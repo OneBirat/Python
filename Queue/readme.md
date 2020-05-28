@@ -1,6 +1,6 @@
 Contain data nodes
 
-Support three main operations:
+Support three main operations:\n
     Enqueue adds data to the back of the queue
     Dequeue removes and provides data from the front of the queue
     Peek provides data on the front of the queue
