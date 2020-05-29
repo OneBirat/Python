@@ -7,4 +7,6 @@
 
 ## Merge Sort Implementation in Python
 
-We can implement the Merge Sort algorithm in Python using two functions **merge_sort(lst)**, the main function and **merge(left, right)**, a helper function.
+We can implement the Merge Sort algorithm in Python using two functions:
+**merge_sort(lst)**, the main function 
+and **merge(left, right)**, a helper function.
