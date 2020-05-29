@@ -1,12 +1,10 @@
-**Merge sorting** takes two steps:
+**Merge Sort** is a divide and conquer algorithm. It takes two steps:
 ```
-- splitting the data into “runs” or smaller components,
-- and the re-combining those runs into sorted lists(the “merge”).
+1) splitting the original list into smaller sorted lists recursively until there is only 1 element in the list,
+2) merging back the presorted 1-element lists into 2-element lists, 4-element lists, and so on recursively.
+
 ```
 
-When splitting the data, we divide the input to our sort in half.
-We then recursively call the sort on each of those halves, which cuts the halves into quarters.
-This process continues until all of the lists contain only a single element. Then we begin merging.
+## Merge Sort Implementation in Python
 
-When merging two single-element lists, we check if the first element is smaller or larger than the other. 
-Then we return the two-element list with the smaller element followed by the larger element.
+We can implement the Merge Sort algorithm in Python using two functions **merge_sort(lst)**, the main function and **merge(left, right)**, a helper function.
