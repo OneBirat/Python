@@ -28,10 +28,16 @@ def merge(left, right):
     result += right
 
   return result
+
+
+#Test the Code:
+
 '''
+
 unordered_list = [12, 141, 124, 97, 29, 895, 125, 455]
 
 ordered_list = merge_sort(unordered_list)
 
 print(ordered_list)
+
 '''
