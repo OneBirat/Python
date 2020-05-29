@@ -1,5 +1,8 @@
-**Merge sorting** takes two steps: *splitting the data into “runs” or smaller components*,
+**Merge sorting** takes two steps:
+```
+*splitting the data into “runs” or smaller components*,
 and *the re-combining those runs into sorted lists*  **(the “merge”)**.
+```
 
 When splitting the data, we divide the input to our sort in half.
 We then recursively call the sort on each of those halves, which cuts the halves into quarters.
