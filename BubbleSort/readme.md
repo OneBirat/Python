@@ -1,0 +1,1 @@
+The Bubble Sort algorithm works by comparing a pair of neighbor elements and shifting the larger of the two to the right. Bubble Sort completes this by swapping the two elements’ positions if the first element being compared is larger than the second element being compared. 
