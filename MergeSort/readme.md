@@ -1,7 +1,7 @@
 **Merge sorting** takes two steps:
 ```
-*splitting the data into “runs” or smaller components*,
-and *the re-combining those runs into sorted lists*  **(the “merge”)**.
+- splitting the data into “runs” or smaller components,
+- and the re-combining those runs into sorted lists(the “merge”).
 ```
 
 When splitting the data, we divide the input to our sort in half.
