@@ -3,6 +3,6 @@ All the remaining values are partitioned into two sub-lists containing the value
 
 
 <p align="center">
-  <img src="quicksort.png" width="350" title="Quick Sort">
+  <img src="quicksort.png" width="750" title="Quick Sort">
   
 </p>
